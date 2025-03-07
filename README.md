@@ -64,7 +64,7 @@ This project is a React implementation of the UI design provided in the Figma li
 - LinkedIn: [www.linkedin.com/in/emmanuel-ohore]
 
 ## Feedback & Questions
-For any questions or feedback, please reach out via [email@example.com](emmanuelohore2003@gmail.com) or create an issue in the repository.
+For any questions or feedback, please reach out via [My Enail](emmanuelohore2003@gmail.com) or create an issue in the repository.
 
 ---
 
