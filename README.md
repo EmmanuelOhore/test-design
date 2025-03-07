@@ -1,58 +1,77 @@
-<<<<<<< HEAD
-# test-design
-=======
-# React + TypeScript + Vite
+# React Frontend Developer Assessment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Overview
+This project is a React implementation of the UI design provided in the Figma link. The focus is on responsive design, cross-browser compatibility, clean code, and component reusability.
 
-Currently, two official plugins are available:
+## Live Demo
+[[Deployed Version](https://test-design-bice.vercel.app/)](#)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
+- React 19 (Functional Components & Hooks)
+- TypeScript
+- Tailwind CSS
+- Vite
+- ESLint
+- PostCSS
 
-## Expanding the ESLint configuration
+## Setup Instructions
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/yourusername/repository-name.git
+   ```
+2. Navigate to the project directory:
+   ```sh
+   cd repository-name
+   ```
+3. Install dependencies:
+   ```sh
+   npm install
+   ```
+   or
+   ```sh
+   yarn install
+   ```
+4. Start the development server:
+   ```sh
+   npm run dev
+   ```
+   or
+   ```sh
+   yarn dev
+   ```
+5. Open `http://localhost:3000/` in your browser to view the application.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Assumptions & Decisions
+- The implementation closely follows the Figma design.
+- Used Tailwind CSS for styling.
+- Placeholder images/text were used where necessary.
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Features Implemented
+- Fully responsive UI
+- Component-based architecture
+- Cross-browser compatibility
+- Optimized performance with best React practices
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Time Spent
+- Total time spent: ~18 hours
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## Deployment
+- Hosted on **Vercel**
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
->>>>>>> master
+## Author
+- **Ohore Emmanuel**
+- GitHub: [https://github.com/EmmanuelOhore]
+- LinkedIn: [www.linkedin.com/in/emmanuel-ohore]
+
+## Feedback & Questions
+For any questions or feedback, please reach out via [email@example.com](emmanuelohore2003@gmail.com) or create an issue in the repository.
+
+---
+
+### Submission Checklist:
+✅ GitHub repository link: [[Link](https://github.com/EmmanuelOhore/test-design)]  
+✅ Deployed version: [Link](https://test-design-bice.vercel.app/)]  
+✅ README file included  
+
+Thank you for the opportunity!
+
