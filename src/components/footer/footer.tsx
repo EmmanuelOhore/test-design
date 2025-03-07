@@ -22,13 +22,13 @@ const Footer = () => {
               The fastest and simple way to generate growing business solutions
               with our products
             </p>
-            <div className="input_box justify-between border border-[#B4B6C4] bg-white z-10  p-2 flex gap-4 rounded-md md:p-1 xl:p-2 ">
+            <div className="input_box  justify-between border border-[#B4B6C4] bg-white z-10  w-[18rem] p-2 flex gap-4 rounded-md md:p-1 xl:p-2 xl:w-[25rem] ">
               <input
                 type="text"
                 placeholder="Your business email"
                 className="placeholder:text-sm placeholder:pl-4 xl:placeholder:text-base"
               />
-              <button className="text-sm font-semibold h-[2.8rem] bg-[#6241D4] text-white w-[9rem] rounded-lg md:h-[2.5rem] xl:text-base xl:h-[3rem]">
+              <button className="text-[12px] font-semibold h-[2.3rem] bg-[#6241D4] text-white w-[10rem] rounded-lg md:h-[2.5rem] xl:text-base xl:h-[3rem]">
                 Get Started
               </button>
             </div>
