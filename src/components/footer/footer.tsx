@@ -28,7 +28,7 @@ const Footer = () => {
                 placeholder="Your business email"
                 className="placeholder:text-sm placeholder:pl-4 xl:placeholder:text-base"
               />
-              <button className="text-[12px] font-semibold h-[2.3rem] bg-[#6241D4] text-white w-[10rem] rounded-lg md:h-[2.5rem] xl:text-base xl:h-[3rem]">
+              <button className="text-[10px] font-semibold h-[2.3rem] bg-[#6241D4] text-white w-[10rem] rounded-lg md:h-[2.5rem] xl:text-base xl:h-[3rem]">
                 Get Started
               </button>
             </div>
